@@ -74,10 +74,16 @@ struct AnimalDetailView: View {
             //MAP
             Group {
                 HeadingView(headingImage: "map", headingText: "National Parks")
+                InsetMapView()
             }
             .padding(.horizontal)
             
             //LINK
+            Group {
+                HeadingView(headingImage: "books.vertical", headingText: "Learn More")
+                ExternalWeblinkView(animal: animal)
+            }
+            .padding(.horizontal)
             
             
         }//:SCROLLVIEW
