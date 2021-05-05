@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		470159E726422AF3000DB47A /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470159E626422AF3000DB47A /* AnimalListItemView.swift */; };
 		475ECD302640B63400BF2ECD /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475ECD2F2640B63400BF2ECD /* AfricaApp.swift */; };
 		475ECD322640B63400BF2ECD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475ECD312640B63400BF2ECD /* ContentView.swift */; };
 		475ECD342640B63500BF2ECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 475ECD332640B63500BF2ECD /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		470159E626422AF3000DB47A /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
 		475ECD2C2640B63400BF2ECD /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		475ECD2F2640B63400BF2ECD /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		475ECD312640B63400BF2ECD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				47B6419326421D23000F05B1 /* CoverImageView.swift */,
+				470159E626422AF3000DB47A /* AnimalListItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				475ECD322640B63400BF2ECD /* ContentView.swift in Sources */,
+				470159E726422AF3000DB47A /* AnimalListItemView.swift in Sources */,
 				47B6419126421B59000F05B1 /* MainView.swift in Sources */,
 				47B6419426421D23000F05B1 /* CoverImageView.swift in Sources */,
 				47B6419726421F57000F05B1 /* CoverImageModel.swift in Sources */,
