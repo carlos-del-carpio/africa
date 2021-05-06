@@ -95,8 +95,6 @@ struct AnimalDetailView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
             AnimalDetailView(animal: animals[0])
-        }.previewDevice("iPhone 12 Pro")
-        
-        
+        }.previewDevice("iPhone 12 Pro") 
     }
 }
